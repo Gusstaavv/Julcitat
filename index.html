@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Julkomplimanger</title>
+</head>
+<body>
+    <h1>Din julkomplimang:</h1>
+    <p id="quote"></p>
+    <script>
+        const quotes = [
+            "Du sprider julglädje var du än går!",
+            "Din värme och omtanke är som en julgåva i sig!",
+            "Du är som stjärnan på toppen av granen – strålande!",
+            "Tack för att du gör denna jul extra speciell!",
+            "Du lyser upp vinterns mörkaste dagar!"
+        ];
+        document.getElementById('quote').innerText = quotes[Math.floor(Math.random() * quotes.length)];
+    </script>
+</body>
+</html>
